@@ -48,4 +48,4 @@ LibrarySystem/
 
 # Project Demo
 
-[![Watch Demo](https://img.shields.io/badge/Watch-Demo-blue)](![./public/demo.gif](https://github.com/aboulmagdApp/Library-Management-System-C-Data-Structure-Project-/blob/main/public/demo.gif))
+[![Demo](public/demo.gif)](public/demo.gif)
