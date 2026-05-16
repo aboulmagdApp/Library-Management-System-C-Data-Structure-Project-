@@ -48,4 +48,4 @@ LibrarySystem/
 
 # Project Demo
 
-[![Watch Demo](https://img.shields.io/badge/Watch-Demo-blue)](public/demo.mp4)
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo-blue)](public/demo.gif)
