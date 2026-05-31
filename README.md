@@ -63,7 +63,29 @@ LibrarySystem/
 | **Rawan** | **Queue (Borrow Requests)** | `LibrarySystem.cpp` | `RequestQueue::enqueue()`<br>`RequestQueue::dequeue()`<br>`RequestQueue::display()`<br>`RequestQueue::isEmpty()`<br>`RequestQueue::isFull()` |
 | **Samer Wagdy** | **Integration + Main Menu + Testing** | `main.cpp` + `LibrarySystem.cpp` | `main()`<br>`clearScreen()`<br>`pauseScreen()`<br>`LibraryManager::addBookFirst()`<br>`LibraryManager::addBookEnd()`<br>`LibraryManager::deleteBook()`<br>`LibraryManager::searchBook()`<br>`LibraryManager::borrowBook()`<br>`LibraryManager::addRequest()`<br>`LibraryManager::processRequest()` |
 
+---
 
+## 🖥️ Application Menu
+
+```text
+========== Library Management System ==========
+
+1. Add Book First          -> Linked List
+2. Add Book End            -> Linked List
+3. Display Books           -> Linked List
+4. Search Book             -> Linked List
+5. Delete Book             -> Linked List
+
+6. Borrow Book             -> Stack
+7. Show Borrow History     -> Stack
+
+8. Add Request             -> Queue
+9. Process Request         -> Queue
+10. Show Requests          -> Queue
+
+0. Exit
+===============================================
+```
 
 ---
 # Project Demo
