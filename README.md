@@ -46,6 +46,11 @@ LibrarySystem/
 
 ---
 
+## Build and Run 
+- build Run : g++ main.cpp LibrarySystem.cpp -o main 
+- Run : ./main
+
+---
 # Project Demo
 
 [![Demo](public/demo.gif)](public/demo.gif)
