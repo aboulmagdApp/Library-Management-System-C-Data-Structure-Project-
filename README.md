@@ -76,12 +76,14 @@ LibrarySystem/
 4. Search Book             -> Linked List
 5. Delete Book             -> Linked List
 
-6. Borrow Book             -> Stack
-7. Show Borrow History     -> Stack
+6. Borrow Book -> Stack (push) 
+7. Display Last Borrow -> Stack (peek) 
+8. Remove Last Borrow -> Stack (pop) 
+9. Show Borrow History -> Stack (display)
 
-8. Add Request             -> Queue
-9. Process Request         -> Queue
-10. Show Requests          -> Queue
+10. Add Request -> Queue (enqueue) 
+11. Process Request -> Queue (dequeue) 
+12. Show Requests -> Queue (display)
 
 0. Exit
 ===============================================

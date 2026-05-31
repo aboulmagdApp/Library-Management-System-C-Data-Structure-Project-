@@ -170,6 +170,17 @@ void BorrowStack::pop()
     top--;
 }
 
+void BorrowStack::peek()
+{
+    if (isEmpty())
+    {
+        cout << "Borrow History is Empty!" << endl;
+        return;
+    }
+
+    cout << "Last Borrowed Book: " << stack[top] << endl;
+}
+
 void BorrowStack::display()
 {
     if (isEmpty())
@@ -319,6 +330,16 @@ void LibraryManager::borrowBook()
     getline(cin, title);
 
     borrowHistory.push(title);
+}
+
+void LibraryManager::displayLastBorrow()
+{
+    borrowHistory.peek();
+}
+
+void LibraryManager::removeLastBorrow()
+{
+    borrowHistory.pop();
 }
 
 void LibraryManager::showBorrowHistory()

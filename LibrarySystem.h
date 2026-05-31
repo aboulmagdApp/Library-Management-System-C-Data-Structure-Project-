@@ -58,6 +58,8 @@ public:
     void pop();
 
     void display();
+    
+    void peek(); // display the last borrowed book without removing it from the stack
 };
 
 class RequestQueue
@@ -100,6 +102,10 @@ public:
     void deleteBook();
 
     void borrowBook();
+
+    void displayLastBorrow();
+    
+    void removeLastBorrow();
 
     void showBorrowHistory();
 

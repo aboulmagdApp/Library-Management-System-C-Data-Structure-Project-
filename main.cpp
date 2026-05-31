@@ -27,10 +27,12 @@ int main()
         cout << "4. Search Book\n";
         cout << "5. Delete Book\n";
         cout << "6. Borrow Book\n";
-        cout << "7. Show Borrow History\n";
-        cout << "8. Add Request\n";
-        cout << "9. Process Request\n";
-        cout << "10. Show Requests\n";
+        cout << "7. Display Last Borrow\n";
+        cout << "8. Remove Last Borrow\n";
+        cout << "9. Show Borrow History\n";
+        cout << "10. Add Request\n";
+        cout << "11. Process Request\n";
+        cout << "12. Show Requests\n";
         cout << "0. Exit\n";
 
         cout << "Enter Choice: ";
@@ -79,29 +81,43 @@ int main()
             pauseScreen();
             clearScreen();
             break;
-
+        
         case 7:
             clearScreen();
-            library.showBorrowHistory();
+            library.displayLastBorrow();
             pauseScreen();
             clearScreen();
             break;
-
+        
         case 8:
             clearScreen();
-            library.addRequest();
+            library.removeLastBorrow();
             pauseScreen();
             clearScreen();
             break;
 
         case 9:
             clearScreen();
-            library.processRequest();
+            library.showBorrowHistory();
             pauseScreen();
             clearScreen();
             break;
 
         case 10:
+            clearScreen();
+            library.addRequest();
+            pauseScreen();
+            clearScreen();
+            break;
+
+        case 11:
+            clearScreen();
+            library.processRequest();
+            pauseScreen();
+            clearScreen();
+            break;
+
+        case 12:
             clearScreen();
             library.showRequests();
             pauseScreen();
